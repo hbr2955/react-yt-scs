@@ -1,0 +1,44 @@
+
+
+
+body {
+  background-color: black;
+}
+
+
+.parent {
+ 
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card {
+  width: 27%;
+  border: white 1px solid;
+  border-radius: 40px;
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-family: cursive;
+}
+.card button {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  font-family: cursive;
+}
+.card p {
+  margin: 10% 0;
+}
+
+.card img {
+  width: 65%;
+  border-radius: 50%;
+}
+
+
